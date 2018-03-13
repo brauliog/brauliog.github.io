@@ -1,6 +1,7 @@
-a, .sec-contact .btn {
-  -webkit-transition: all .25s;
-  transition: all .25s;
+a,
+.sec-contact .btn {
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 /*----- Typography -----*/
@@ -9,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
   font-weight: 300;
 }
 
@@ -27,7 +28,7 @@ body {
 }
 
 .main-heading {
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
   font-weight: 300;
   text-align: center;
   letter-spacing: 9px;
@@ -105,7 +106,7 @@ hr {
 
 /*----- Header -----*/
 .navbar-default {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   border-color: transparent;
 }
 
@@ -126,7 +127,8 @@ hr {
 .sec-main {
   position: relative;
   height: 100vh;
-  background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
+  background: url(https://source.unsplash.com/seSgGa1SFDs/1920x1080) no-repeat
+    center center;
   background-size: cover;
 }
 .sec-main:after {
@@ -137,7 +139,6 @@ hr {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-
 }
 
 .main-heading {
@@ -163,7 +164,8 @@ hr {
 .sec-about a {
   color: #000;
 }
-.sec-about a:hover, .sec-about a:focus {
+.sec-about a:hover,
+.sec-about a:focus {
   color: #ad0000;
 }
 
@@ -172,7 +174,6 @@ hr {
   position: relative;
   background: #f9f9f9;
   height: auto;
-
 }
 
 .sec-services i {
@@ -205,12 +206,13 @@ hr {
 }
 
 .sec-contact .btn {
-  padding: .5rem 1.75rem;
+  padding: 0.5rem 1.75rem;
   background: #000;
-  font-size: .95rem;
+  font-size: 0.95rem;
   color: #fff;
 }
-.sec-contact .btn:hover, .sec-contact .btn:focus {
+.sec-contact .btn:hover,
+.sec-contact .btn:focus {
   background: #ad0000;
   border-color: #7a0000;
 }
@@ -228,8 +230,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .soc-media-ul li:not(:first-child) a {
@@ -238,13 +240,14 @@ footer {
 
 .soc-media-ul a {
   display: block;
-  padding: 0.5em .65rem;
+  padding: 0.5em 0.65rem;
   font-size: 1rem;
   color: #fff;
   border-radius: 50%;
   border: 2px solid;
 }
-.soc-media-ul a:hover, .soc-media-ul a:focus {
+.soc-media-ul a:hover,
+.soc-media-ul a:focus {
   color: #ad0000;
 }
 
@@ -254,13 +257,13 @@ footer {
   padding-top: 0.5em;
 }
 /*---- Minor Page Adjustments -----*/
-@media (min-width: 768px){
-    .navbar-nav{
-        float:none;
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-    }
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+  }
 }
 #headshot {
   width: 15.5em;
@@ -271,7 +274,7 @@ footer {
   text-align: center;
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 2.0em;
+  font-size: 2em;
   padding-bottom: 1.5em;
 }
 
@@ -281,7 +284,6 @@ footer {
   padding: 100px auto;
   margin: auto;
   font-size: 2.5em;
-
 }
 
 /*----------------- Time Line ------------------*/
@@ -300,7 +302,7 @@ footer {
 .timeline h6 {
   line-height: inherit;
 }
-.timeline h3{
+.timeline h3 {
   margin-top: 0px;
 }
 
@@ -318,7 +320,7 @@ footer {
   font-size: 12px;
   font-weight: 350;
   letter-spacing: 3px;
-  margin: 0 0 .5em 0;
+  margin: 0 0 0.5em 0;
   text-transform: uppercase;
   white-space: nowrap;
   color: #768390;
@@ -348,7 +350,7 @@ footer {
 .timeline-marker:after {
   content: "";
   width: 3px;
-  background: #CCD5DB;
+  background: #ccd5db;
   display: block;
   position: absolute;
   top: 24px;
@@ -389,7 +391,7 @@ footer {
   top: 0;
   bottom: 30px;
   position: absolute;
-  border-top: 3px solid #CCD5DB;
+  border-top: 3px solid #ccd5db;
 }
 .period .timeline-marker:after {
   content: "";
@@ -405,7 +407,11 @@ footer {
 
 /*---- Timeline Centering -----*/
 @media (min-width: 992px) {
-  .timeline-centered, .timeline-centered .timeline-item, .timeline-centered .timeline-info, .timeline-centered .timeline-marker, .timeline-centered .timeline-content {
+  .timeline-centered,
+  .timeline-centered .timeline-item,
+  .timeline-centered .timeline-info,
+  .timeline-centered .timeline-marker,
+  .timeline-centered .timeline-content {
     display: block;
     margin: 0;
     padding: 0;
