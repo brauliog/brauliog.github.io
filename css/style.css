@@ -119,6 +119,7 @@ hr {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ad0000;
+  background-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a:focus {
