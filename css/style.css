@@ -220,9 +220,6 @@ hr {
   border-color: #7a0000;
 }
 
-.sec-contact {
-  background-color: #f9f9f9;
-}
 /*---- Footer ----*/
 footer {
   background: #000;
@@ -468,5 +465,61 @@ footer {
   }
   .timeline-centered .period .timeline-title {
     left: auto;
+  }
+}
+/* project slider */
+
+.wrap {
+  display: flex;
+  align-items: stretch;
+  width: 90%;
+  height: 30%;
+  margin: auto;
+}
+
+button {
+  border: none;
+  background: transparent;
+  color: #ad0000;
+  font-size: 60px;
+  text-align: center;
+  outline: none;
+  transition: opacity 300ms ease-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.scroller {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.items {
+  list-style-type: none;
+  white-space: nowrap;
+  font-size: 0;
+  line-height: 0;
+  transition: transform 1s ease-in-out;
+}
+
+.item {
+  padding: 30px 20px;
+  display: inline-block;
+  width: 100%;
+  height: 250px;
+  font-size: 25px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-weight: bold;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+
+  &:nth-child(2) {
+    color: #fff;
   }
 }
